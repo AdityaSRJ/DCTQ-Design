@@ -1,0 +1,483 @@
+
+*** Running vivado
+    with args -log dctq.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dctq.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sun Jul 28 11:28:31 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dctq.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 513.578 ; gain = 196.508
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/Aditya SR/OneDrive/Desktop/Vivado/Voting Machine/buttonControl/buttonControl/buttonControl.srcs/utils_1/imports/synth_1/buttonControl.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Aditya SR/OneDrive/Desktop/Vivado/Voting Machine/buttonControl/buttonControl/buttonControl.srcs/utils_1/imports/synth_1/buttonControl.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top dctq -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3108
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 973.574 ; gain = 448.645
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ram_rc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+INFO: [Synth 8-9937] previous definition of design element 'ram_rc' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ram_rc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+INFO: [Synth 8-9937] previous definition of design element 'ram_rc' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ram_rc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+INFO: [Synth 8-9937] previous definition of design element 'ram_rc' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:136]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'dualram' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dualram.v:95]
+INFO: [Synth 8-9937] previous definition of design element 'dualram' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dualram.v:95]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'adder12s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder12s.v:223]
+INFO: [Synth 8-9937] previous definition of design element 'adder12s' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder12s.v:223]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'adder14sr' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder14sr.v:227]
+INFO: [Synth 8-9937] previous definition of design element 'adder14sr' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder14sr.v:227]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'dctreg2x8xn' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctreg2x8xn.v:48]
+INFO: [Synth 8-9937] previous definition of design element 'dctreg2x8xn' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctreg2x8xn.v:48]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'mult8ux8s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult8ux8s.v:405]
+INFO: [Synth 8-9937] previous definition of design element 'mult8ux8s' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult8ux8s.v:405]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'mult11sx8s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult11sx8s.v:392]
+INFO: [Synth 8-9937] previous definition of design element 'mult11sx8s' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult11sx8s.v:392]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'mult12sx8u' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult12sx8u.v:399]
+INFO: [Synth 8-9937] previous definition of design element 'mult12sx8u' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult12sx8u.v:399]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'romc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:87]
+INFO: [Synth 8-9937] previous definition of design element 'romc' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:87]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'romq' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romq.v:77]
+INFO: [Synth 8-9937] previous definition of design element 'romq' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romq.v:77]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'dctq_controller' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq_controller.v:357]
+INFO: [Synth 8-9937] previous definition of design element 'dctq_controller' is here [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq_controller.v:357]
+INFO: [Synth 8-6157] synthesizing module 'dctq' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq.v:30]
+INFO: [Synth 8-6157] synthesizing module 'dualram' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dualram.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ram_rc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:97]
+INFO: [Synth 8-6155] done synthesizing module 'ram_rc' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/ram_rc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dualram' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dualram.v:12]
+INFO: [Synth 8-6157] synthesizing module 'romc' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:43]
+INFO: [Synth 8-226] default block is never used [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'romc' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mult8ux8s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult8ux8s.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'mult8ux8s' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult8ux8s.v:16]
+INFO: [Synth 8-6157] synthesizing module 'adder12s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder12s.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'adder12s' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder12s.v:8]
+INFO: [Synth 8-6157] synthesizing module 'dctreg2x8xn' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctreg2x8xn.v:8]
+	Parameter WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dctreg2x8xn' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctreg2x8xn.v:8]
+INFO: [Synth 8-6157] synthesizing module 'mult11sx8s' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult11sx8s.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'mult11sx8s' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult11sx8s.v:16]
+INFO: [Synth 8-6157] synthesizing module 'adder14sr' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder14sr.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'adder14sr' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/adder14sr.v:8]
+INFO: [Synth 8-6157] synthesizing module 'romq' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romq.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'romq' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/romq.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mult12sx8u' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult12sx8u.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'mult12sx8u' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/mult12sx8u.v:16]
+INFO: [Synth 8-6157] synthesizing module 'dctq_controller' [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq_controller.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dctq_controller' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq_controller.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dctq' (0#1) [C:/Users/Aditya SR/OneDrive/Desktop/ModelSim/work/DCTQ Design/dctq.v:30]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1097.512 ; gain = 572.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 1097.512 ; gain = 572.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 1097.512 ; gain = 572.582
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/Aditya SR/OneDrive/Desktop/Vivado/Voting Machine/buttonControl/buttonControl/buttonControl.srcs/utils_1/imports/synth_1/buttonControl.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 1097.512 ; gain = 572.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 1097.512 ; gain = 572.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1100.750 ; gain = 575.820
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input   19 Bit       Adders := 8     
+	   2 Input   16 Bit       Adders := 8     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 8     
+	   2 Input    9 Bit       Adders := 16    
+	   3 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 41    
+	   3 Input    8 Bit       Adders := 3     
+	   2 Input    7 Bit       Adders := 44    
+	   3 Input    7 Bit       Adders := 13    
+	   2 Input    6 Bit       Adders := 19    
+	   3 Input    6 Bit       Adders := 60    
+	   2 Input    5 Bit       Adders := 32    
+	   3 Input    5 Bit       Adders := 56    
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 17    
++---Registers : 
+	               64 Bit    Registers := 19    
+	               63 Bit    Registers := 4     
+	               20 Bit    Registers := 1     
+	               19 Bit    Registers := 9     
+	               18 Bit    Registers := 8     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 12    
+	               15 Bit    Registers := 40    
+	               14 Bit    Registers := 8     
+	               13 Bit    Registers := 64    
+	               12 Bit    Registers := 48    
+	               11 Bit    Registers := 143   
+	               10 Bit    Registers := 64    
+	                9 Bit    Registers := 16    
+	                8 Bit    Registers := 163   
+	                7 Bit    Registers := 63    
+	                6 Bit    Registers := 35    
+	                5 Bit    Registers := 40    
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 370   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 1     
+	   8 Input   64 Bit        Muxes := 1     
+	   8 Input   63 Bit        Muxes := 2     
+	   3 Input   20 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   3 Input   19 Bit        Muxes := 8     
+	   2 Input   19 Bit        Muxes := 8     
+	   3 Input   16 Bit        Muxes := 8     
+	   2 Input   16 Bit        Muxes := 8     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 8     
+	   2 Input    8 Bit        Muxes := 32    
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 20    
+	   8 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:50 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:51 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|dctq        | u11/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u11/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u11/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u12/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u12/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u12/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u12/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u12/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u12/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u13/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u13/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u13/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u13/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u13/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u13/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u14/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u14/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u14/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u14/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u14/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u14/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u15/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u15/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u15/s14_reg4_reg[7]  | 3      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|dctq        | u15/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u15/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u15/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u15/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u16/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u16/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u16/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u16/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u16/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u16/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u17/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u17/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u17/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u17/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u17/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u17/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u18/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u18/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u18/s22_reg5_reg[1]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u18/s22_reg6_reg[6]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u18/s31_reg7_reg[3]  | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u18/s31_reg7_reg[1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|dctq        | u21/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u21/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u21/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u21/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u21/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u21/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u21/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u22/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u22/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u22/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u22/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u22/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u22/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u22/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u22/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u23/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u23/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u23/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u23/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u23/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u23/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u23/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u23/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u24/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u24/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u24/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u24/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u24/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u24/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u24/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u24/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u25/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u25/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u25/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u25/s14_reg4_reg[10] | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|dctq        | u25/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u25/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u25/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u25/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u25/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u26/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u26/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u26/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u26/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u26/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u26/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u26/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u26/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u27/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u27/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u27/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u27/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u27/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u27/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u27/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u27/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u28/n2_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u28/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u28/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u28/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u28/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u28/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u28/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u28/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u31/n1_reg7_reg      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u31/n1orn2x_reg7_reg | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u31/s22_reg5_reg[1]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u31/s22_reg5_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|dctq        | u31/s31_reg7_reg[3]  | 4      | 2     | NO           | YES                | YES               | 2      | 0       | 
+|dctq        | u31/s31_reg7_reg[1]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|dctq        | u31/s31_reg7_reg[0]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   293|
+|3     |LUT1   |   382|
+|4     |LUT2   |   746|
+|5     |LUT3   |   726|
+|6     |LUT4   |   334|
+|7     |LUT5   |   533|
+|8     |LUT6   |   765|
+|9     |MUXF7  |   128|
+|10    |SRL16E |   153|
+|11    |FDCE   |    32|
+|12    |FDPE   |     3|
+|13    |FDRE   |  6652|
+|14    |FDSE   |    16|
+|15    |IBUF   |    81|
+|16    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+----------------+------+
+|      |Instance        |Module          |Cells |
++------+----------------+----------------+------+
+|1     |top             |                | 10863|
+|2     |  adder12s1     |adder12s        |   331|
+|3     |  adder14sr1    |adder14sr       |   437|
+|4     |  dctq_control1 |dctq_controller |   293|
+|5     |  dctreg1       |dctreg2x8xn     |   343|
+|6     |  dualram1      |dualram         |  2017|
+|7     |    ram1        |ram_rc          |   904|
+|8     |    ram2        |ram_rc_14       |   904|
+|9     |  romc1         |romc            |   428|
+|10    |  romq1         |romq            |    11|
+|11    |  u11           |mult8ux8s       |   274|
+|12    |  u12           |mult8ux8s_0     |   358|
+|13    |  u13           |mult8ux8s_1     |   358|
+|14    |  u14           |mult8ux8s_2     |   358|
+|15    |  u15           |mult8ux8s_3     |   329|
+|16    |  u16           |mult8ux8s_4     |   358|
+|17    |  u17           |mult8ux8s_5     |   358|
+|18    |  u18           |mult8ux8s_6     |   358|
+|19    |  u21           |mult11sx8s      |   418|
+|20    |  u22           |mult11sx8s_7    |   469|
+|21    |  u23           |mult11sx8s_8    |   469|
+|22    |  u24           |mult11sx8s_9    |   469|
+|23    |  u25           |mult11sx8s_10   |   432|
+|24    |  u26           |mult11sx8s_11   |   469|
+|25    |  u27           |mult11sx8s_12   |   469|
+|26    |  u28           |mult11sx8s_13   |   469|
+|27    |  u31           |mult12sx8u      |   488|
++------+----------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 14 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1339.047 ; gain = 814.117
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.183 . Memory (MB): peak = 1341.742 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 421 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1422.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: fbab778a
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 1 Warnings, 14 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1422.461 ; gain = 904.820
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1422.461 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aditya SR/OneDrive/Desktop/Vivado/Voting Machine/buttonControl/buttonControl/buttonControl.runs/synth_1/dctq.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file dctq_utilization_synth.rpt -pb dctq_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 28 11:29:53 2024...
